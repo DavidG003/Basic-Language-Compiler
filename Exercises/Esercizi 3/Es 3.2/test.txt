@@ -1,0 +1,37 @@
+{
+read(x, y, z);
+if (> x y)
+	if (> x z) print(x) else print(z) end
+else
+	if (> y z) print(y) else print(z) end
+end
+};
+{
+read(a, b);
+for (x:= 0; <> a b) do
+    if (> a b) assign [ - a b to a ]
+    else assign [ - b a to b ]
+    end;
+print(a)
+};
+/*
+
+comment
+
+*/
+{
+read(n);
+assign [2 to i] [1 to f];
+for (<= i n) do
+	assign [*(f, i) to f] [+(i, 1) to i];
+print(f)
+};
+
+{
+read(x);
+assign [1 to y, z];
+for (> x 0) do {
+	assign [- x 1 to x] [*(y, 2) to y] [*(z, 3) to z];
+	print(y,z)
+}
+}

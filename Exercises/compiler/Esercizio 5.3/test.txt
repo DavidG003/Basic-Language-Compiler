@@ -1,0 +1,43 @@
+/*
+{
+read(y);
+for (x:=0; < x y) do {
+	print(x);
+	assign[+(x,1) to x]
+}
+
+}*/
+/*
+{
+	if (< x 10) {
+	print(x);
+	assign [+(x,1) to x]
+	}
+	else
+	assign [0 to x]
+	end
+};
+*/
+/*
+{
+	read(x);
+	if (< x 10) {
+	assign [+(x,1) to x];
+	print(x)
+	}
+end
+};
+
+*/
+/*assign [+ (1, 2) to x, y, a] [- + (* (1,2,a), 2, - 3 - 2 2) 3 to o, b] [- 2 3 to c];
+print(a,b,c, +(1,2));
+read(x,y,z) */
+
+{
+read(x,y,z);
+if(> x y)
+	if(> x z) print(x) else print(z) end
+else
+	if(> y z) print(y) else print(z) end
+end}
+
